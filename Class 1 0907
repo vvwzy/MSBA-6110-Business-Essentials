@@ -1,0 +1,10 @@
+Duration:09.07-11.09
+Requirement: Assignments are always due on Monday at 11:59PM
+objectives of a biz: 
+5 essential elements for succeeding with Data: 1.Quality data 2.Means to monetize 3.Organizational capability 4.Technology 5.Defense
+The biggest porblem int he analysis process is having no idea what you are looking for the data.
+Data Scientists spend the most time: cleaning and organizing data,collecting data sets
+Challanges faced by the ds at work: dirty data, lack of data science talent, lack of management/financial support
+import wrds
+db = wrds.connection(wrds_username = "ziyanwu")
+df = db.raw_sql()
