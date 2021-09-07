@@ -8,3 +8,5 @@ Challanges faced by the ds at work: dirty data, lack of data science talent, lac
 import wrds
 db = wrds.connection(wrds_username = "ziyanwu")
 df = db.raw_sql()
+the empirical rule（only to those bell-shaped)： 68% of the data lie within 1 std deviation of the mean, 95% of the data lie within 2 std deviations of the mean, 99.7% of the data lies within 3 std deviations of the mean.
+Chebyhev's Theorem(apply to every data set)：>=3/4 of the data lie within 2 std dev of the mean; >=8/9 of the data lie within 3 std dev of the mean; >= 1-1/k^2 of the data lie within k std devs of the mean
